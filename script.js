@@ -20,3 +20,8 @@ function alertex(){
 function consoleLog(){
     console.log("Hello, Console");
 }
+function varEX(){
+    var carName = "Volvo";
+    var carName, a=5, b=10;
+    window.alert(Math.pow(a,b));
+}
