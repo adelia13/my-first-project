@@ -23,5 +23,15 @@ function consoleLog(){
 function varEX(){
     var carName = "Volvo";
     var carName, a=5, b=10;
-    window.alert(Math.pow(a,b));
+}
+function sum(a,b,c){
+    var t = example(a,b); //899
+    window.alert(t+c); //899+50
+}
+function example(p1,p2){
+    return p1-p2;
+}
+function background1(){
+    document.getElementById("bodyBack").style.backgroundColor="white";
+    document.getElementById("head1").style.display="block";
 }
